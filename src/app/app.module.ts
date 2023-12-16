@@ -46,11 +46,17 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
+import { TopNavigationbarComponent } from './Layout/top-navigationbar/top-navigationbar.component';
+import { StudentsComponent } from './Students/students/students.component';
+import { SingelStudentComponent } from './Students/single-student/single-student.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopNavigationbarComponent,
+    StudentsComponent,
+    SingelStudentComponent
   ],
   imports: [
     BrowserModule,
